@@ -27,6 +27,23 @@ I create weather component to get it in app component to seperate the code and b
 
 I use css in my project to good style in my website
 
+## CSS Prefixes
+
+To ensure compatibility with all major browsers and enhance user experience, I added the necessary CSS prefixes in the stylesheet. This ensures that the project supports modern CSS properties even in browsers requiring specific prefixes.
+
+### Tools Used
+
+The following tools were used to add prefixes:
+
+-   [Autoprefixer](https://github.com/postcss/autoprefixer) (via PostCSS setup)
+
+### How is compatibility ensured?
+
+-   Tested on popular browsers like Chrome, Firefox, Safari, and Edge.
+-   Reviewed all properties requiring prefixes according to modern CSS standards.
+
+If you have any questions or suggestions for improving compatibility, feel free to open an issue.
+
 ### OPEN WEATHER API
 
 I get the api of weather from open weather api website
